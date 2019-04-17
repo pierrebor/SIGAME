@@ -1,0 +1,145 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #3498db;
+    overflow: hidden;
+}
+.game{
+    width: 90%;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.txtGame{
+    width: 20%;
+    height: 80%;
+    background-color: white;
+    border: 5px solid black;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boderGame{
+
+  border: 5px solid black;
+  width: 750px;
+  height: 750px;
+  background-color: white;
+  position: relative;
+}
+.lvlStyle{
+    width: 80px;
+    height: 80px;
+    background-color: #2ecc71;
+    border: 15px solid #27ae60;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lvlStyle p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.up{
+    background-color: #c0392b;
+    width: 600px;
+    height: 70px;
+    border-radius: 0px 0px 25px 25px;
+    position: absolute;  
+    left: 74px;
+}
+.left{
+    background-color:#2ecc71;
+    width: 600px;
+    height: 70px;
+    border-radius: 25px 25px 0px 0px;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 347px;
+    right: 415px ; 
+}
+
+.right{
+    background-color: #f39c12;
+    width: 600px;
+    height: 70px;
+    border-radius: 25px 25px 0px 0px;
+    position: absolute;
+    transform: rotate(270deg);
+    top: 347px;
+    left: 415px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down{
+    background-color: #8e44ad;
+    width: 600px;
+    height: 70px;
+    border-radius: 0px 0px 25px 25px;
+    transform: rotate(180deg);
+    position: absolute;  
+    left: 74px;
+    bottom: 0px;
+}
+
+
+.up, .down, .left, .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    font-weight:bold;
+    
+}
+
+.up p, .down p, .left p, .right p{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.up p, .down p{
+    transform: rotate(270deg);
+}
+.left p, .right p{
+    transform: rotate(90deg); 
+}
+.txtInGame{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    top: 200px;
+    left: 175px;
+    border: 5px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.repere{
+    width: 2px;
+    height: 1000px;
+    background-color: black;
+    margin: 0 auto;
+}
+.lvl{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
