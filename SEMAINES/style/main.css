@@ -2,6 +2,7 @@ body{
     width: 100%;
     height: 100%;
     background-color: #1fb7ae;
+    overflow: hidden;
     
     margin: 0px;
     padding: 0px;
@@ -13,6 +14,8 @@ body{
     flex-direction: column;
 
 }
+
+
 
 /* header */
 header{
@@ -126,7 +129,7 @@ header{
 
 .game{
     width: 95%;
-    height: 830px;
+    height: 730px;
     margin: 0 auto;
     display: flex;
     background-color: #1fb7ae;
@@ -137,7 +140,7 @@ header{
 }
 .txtGame{
     width: 15%;
-    height: 600px ;
+    height: 530px ;
     background-color:  #fff7e8;
     padding: 50px;
     text-align: center;
@@ -150,15 +153,15 @@ header{
 .boderGame{
 
   width: 1000px;
-  height: 850px;
+  height: 750px;
   background-color: #fff7e8;
   position: relative;
 }
 .lvlStyle{
-    width: 80px;
-    height: 80px;
-    background-color: #2ecc71;
-    border: 15px solid #27ae60;
+    width: 150px;
+    height: 150px;
+    background-color: #fff7e8 ;
+    border: 10px solid #1fb7ae;
     font-size: 45px;
     color: white;
     text-align: center;
@@ -166,13 +169,22 @@ header{
     justify-content: center;
     align-items: center;
 }
+.lvlInCase{
+    width: 80%;
+    height: 80%;
+    background-color:#1fb7ae; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .lvlStyle p {
     padding: 0px;
     margin: 0px;
 }
 
 .up{
-    background-color: #000000;
+    background-color: #00b1c5;
     width: 260px;
     height: 260px;
     border-radius: 0px 0px 25px 25px;
@@ -180,7 +192,7 @@ header{
     left: 74px;
 }
 .left{
-    background-color:#000000;
+    background-color:#ff2176;
     width: 260px;
     height: 260px;
     border-radius: 25px 25px 0px 0px;
@@ -191,7 +203,7 @@ header{
 }
 
 .right{
-    background-color: #000000;
+    background-color: #ffb200;
     width: 260px;
     height: 260px;
     border-radius: 25px 25px 0px 0px;
@@ -204,7 +216,7 @@ header{
     align-items: center;
 }
 .down{
-    background-color: #000000;
+    background-color: #E23DB0;
     width: 260px;
     height: 260px;
     border-radius: 0px 0px 25px 25px;
@@ -244,7 +256,7 @@ header{
     padding: 0px;
     background-color: #fff7e8;
     top: 200px;
-    left: 175px;
+    left: 370px;
     border: 5px solid black;
     display:flex;
     align-items: center;
@@ -283,7 +295,7 @@ header{
 
 .instructionDiv{
     width: 275px;
-    height: 610px;
+    height: 540px;
     border: 5px solid black;
     background-color:  #fff7e8;
     font-family: Arial, Helvetica, sans-serif;
@@ -315,111 +327,3 @@ width: 45%;
 width: 45%; 
 }
 
-
-
-
-/* Header */
-
-header{
-    background-color: #00817A;
-    width: 100%;
-    position: fixed;
-  }
-  header nav{
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1rem;
-    color: white;
-  }
-  nav{
-    display: flex;
-    padding: 40px;
-    height: 10px;
-    width: 90%;
-  }
-  header nav ul{
-    display: flex;
-    justify-content: space-around;
-  }
-  nav ul li{
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-  }
-  ul li{
-    text-decoration: none;
-    list-style: none;
-    padding: 2rem;
-  }
-  ul{
-    margin: 0 auto;
-    padding:2rem;
-  
-  }
-  .logo{
-    display :flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 30%;
-  }
-  .logo img{
-  
-    width: 20%;
-    height : 20%;
-  
-  
-  }
-  .navigation{
-  
-    display :flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .enseigne{
-    font-size: 2.5rem;
-  }
-  .gameHeader{
-  
-  
-    width: 130px;
-    height: 40px;
-    text-align: center;
-    padding-top: 10px;
-  }
-  
-  
-  .gameHeader:hover{
-    transition-duration: 0.9s;
-    border: 3px solid #ee9c7f;
-    border-radius: 2rem;
-    width: 130px;
-    height: 40px;
-    text-align: center;
-    padding-top: 10px;
-  }
-  .contest:hover{
-  
-      transition-duration: 0.9s;
-      border: 3px solid #ee9c7f;
-      border-radius: 2rem;
-      width: 130px;
-      height: 40px;
-      text-align: center;
-      padding-top: 10px;
-    }
-  
-  
-  
-  .about:hover{
-  
-  
-      transition-duration: 0.9s;
-      border: 3px solid #ee9c7f;
-      border-radius: 2rem;
-      width: 130px;
-      height: 40px;
-      text-align: center;
-      padding-top: 10px;
-    }
-  

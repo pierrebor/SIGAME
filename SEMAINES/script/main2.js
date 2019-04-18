@@ -209,7 +209,7 @@ function decompte(){
             }
     }
 
-    timerSpeed = 100 // time increase for each lvl
+    timerSpeed = 300 // time increase for each lvl
     // console.log(timerSpeed)
     lvlInCase.innerHTML = lvl
     if(lvl >= 3){
