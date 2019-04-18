@@ -227,7 +227,6 @@ ul{
      display:flex;
      justify-content: space-around;
      align-items: center;
-
      width:100%;
      padding-bottom: 5em;
      height:40rem;
@@ -236,17 +235,18 @@ ul{
    .bouton img{
 
      width: 400px;
-
+     margin-top: 6rem;
    }
 
    .win img{
      width: 400px ;
-
+     margin-top: 6rem;
    }
 
    .instruction img{
 
      width: 400px;
+     margin-top: 6rem;
 
 
    }
