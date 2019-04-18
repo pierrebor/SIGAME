@@ -156,6 +156,15 @@ nav ul li {
   padding-top: 10px;
 }
 
+.game:hover{
+  transition-duration: 0.2s;
+  border: 3px solid #ee9c7f;
+  border-radius: 2rem;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
 /* Section 1 */
   main{
     background-color: #FFF7E8;
@@ -211,7 +220,16 @@ nav ul li {
     margin-bottom: 2rem;
 
   }
-
+  .game2:hover{
+    transition-duration: 0.2s;
+    border: 3px solid #ee9c7f;
+    align-items: center;
+    border-radius: 2rem;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+  }
 
   /*  Section 2   */
    .main__section__two__content{
@@ -299,9 +317,17 @@ label{
   color: white;
   font-size: 1rem;
 }
-.awward{
+
+#Submit:hover{
+  width: 6rem;
+  height: 2rem;
+  transition-duration: 0.2s;
+  border: 3px solid #ee9c7f;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  background-color:#1FB7AE;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 /* Footer */
 
