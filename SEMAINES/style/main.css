@@ -51,7 +51,7 @@ body{
 }
 
 .up{
-    background-color: #c0392b;
+    background-color: #000000;
     width: 600px;
     height: 70px;
     border-radius: 0px 0px 25px 25px;
@@ -59,7 +59,7 @@ body{
     left: 74px;
 }
 .left{
-    background-color:#2ecc71;
+    background-color:#000000;
     width: 600px;
     height: 70px;
     border-radius: 25px 25px 0px 0px;
@@ -70,7 +70,7 @@ body{
 }
 
 .right{
-    background-color: #f39c12;
+    background-color: #000000;
     width: 600px;
     height: 70px;
     border-radius: 25px 25px 0px 0px;
@@ -83,7 +83,7 @@ body{
     align-items: center;
 }
 .down{
-    background-color: #8e44ad;
+    background-color: #000000;
     width: 600px;
     height: 70px;
     border-radius: 0px 0px 25px 25px;
@@ -171,4 +171,23 @@ body{
     text-align: center;
     padding: 40px;
     
+}
+.underGame{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    bottom: 120px;
+    right: 215px;
+    display:flex;
+    justify-content: space-around;
+
+}
+.lvlUnderGame{
+width: 45%;
+}
+.scoreUnderGame{
+width: 45%; 
 }
