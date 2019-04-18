@@ -155,6 +155,7 @@ nav ul li {
   padding-top: 10px;
 }
 
+
 .game:hover{
   transition-duration: 0.2s;
   border: 3px solid #ee9c7f;
@@ -339,8 +340,8 @@ label{
 }
 
 #Submit{
-  width: 6rem;
-  height: 2rem;
+  width: 7rem;
+  height: 3rem;
   border: 3px solid #BAEE7F;
   border-radius: 2rem;
   margin-top: 2rem;
@@ -350,8 +351,8 @@ label{
 }
 
 #Submit:hover{
-  width: 6rem;
-  height: 2rem;
+  width: 7rem;
+  height: 3rem;
   transition-duration: 0.2s;
   border: 3px solid #ee9c7f;
   border-radius: 2rem;
