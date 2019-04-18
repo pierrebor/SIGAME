@@ -249,20 +249,19 @@ ul{
    }
    .bouton img{
 
-     width:80%;
-     margin-left: 4rem;
+     width: 400px;
+
    }
 
    .win img{
-     width: 80%;
+     width: 400px ;
 
    }
 
    .instruction img{
 
-     width: 80%;
-     border-left: 2rem;
-     margin-left: 2rem;
+     width: 400px;
+
 
    }
    img{
@@ -418,19 +417,19 @@ footer{
 
   .bouton img{
 
-    width:90%;
+    width: 400px;
     margin-left: 2.2rem;
   }
 
   .win img{
-    width: 90%;
+    width: 400px;
     margin-left: 2.2rem;
 
   }
 
   .instruction img{
 
-    width: 90%;
+    width: 400px;
     border-left: 2rem;
     margin-left: 2rem;
 
