@@ -234,7 +234,7 @@ nav ul li {
   /*  Section 2   */
    .main__section__two__content{
      display:flex;
-     justify-content: space-evenly;
+     justify-content: space-around;
      align-items: center;
 
      width:100%;
@@ -244,17 +244,17 @@ nav ul li {
    }
    .bouton img{
 
-     width:350%;
+     width:80%;
 
    }
 
    .win img{
-     width: 350%;
+     width: 80%;
    }
 
    .instruction img{
 
-     width: 350%;
+     width: 80%;
      border-left: 2rem;
 
    }
@@ -305,6 +305,9 @@ input{
 label{
   color:white;
   padding:1rem;
+}
+.awward{
+  color:white;
 }
 
 #Submit{
@@ -403,17 +406,17 @@ footer{
   }
   .bouton img{
 
-    width:460%;
+    width:90%;
 
   }
 
   .win img{
-    width: 460%;
+    width: 90%;
   }
 
   .instruction img{
 
-    width: 460%;
+    width: 90%;
     border-left: 2rem;
   }
 
