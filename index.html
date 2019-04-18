@@ -18,10 +18,10 @@
       <div class="navigation">
       <ul>
         <li>
-          <a href="#">Contest</a>
+          <div class="game"><a href="#sectionOne">Game</a></div>
         </li>
         <li>
-          <div class="game"><a href="#">Game</a></div>
+          <a href="#sectionthree">Contest</a>
         </li>
         <li>
           <a href="#">About</a>
@@ -32,7 +32,7 @@
     </nav>
   </header>
   <main>
-  <div class="main__section__one__content">
+  <section id="sectionOne" class="main__section__one__content">
     <div class="main__section__one__content__info__img">
       <img src="./images/scientist.jpg" alt="#" />
     </div>
@@ -46,8 +46,8 @@
           <a href="#">Ready</a>
       </div>
     </div>
-  </div>
-  <div class="main__section__two__content">
+  </section>
+  <section class="main__section__two__content">
       <div class="bouton">
         <img src="./images/bouton.svg" alt="#"/>
       </div>
@@ -57,11 +57,11 @@
       <div class="win">
         <img src="./images/win.svg" alt="#"/>
       </div>
-  </div>
-  <div class="main__section__three__content">
+  </section>
+  <section id="sectionthree" class="main__section__three__content">
     <div class="main__section__three__content__info">
       <img src="./images/concours.svg">
-      <p>Vous avez jusqu'au xxxxx pour participer et tenter de remporter des places pour vous et vos amis<span class="asterisque">*</span></p>
+      <h3 class="awward">Vous avez jusqu'au xxxxx pour participer et tenter de remporter des places pour vous et vos amis<span class="asterisque">*</span></h3>
       <form action="#" method="post">
         <label for="surname"> Nom : </label>
         <input type="text" id="surname" >
@@ -69,8 +69,8 @@
         <input type="text" id="name" >
         <label for="email"> Email : </label>
         <input type="email" id="email" >
-        <label for="score"> Score : </label>
-        <input type="number" id="score" >
+        <label for="score"> Parainage : </label>
+        <input type="text" id="score" >
         <input type="submit" id="Submit" value="Submit" />
       </form>
     </div>
@@ -79,10 +79,10 @@
 
     </div>
 
-  </div>
+  </section>
   </main>
   <footer>
-          Contact | Mention legal
+          Contact | Mention légales
   </footer>
   </body>
   <script src="scripts/main.js"></script>

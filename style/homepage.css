@@ -1,6 +1,11 @@
 html,body{
   border:0;
   margin:0;
+
+}
+html{
+   scroll-behavior: smooth;
+
 }
 
 @font-face {
@@ -28,21 +33,30 @@ html,body{
 }
 
 h1{
-  font-family: "SF Display Regular";
-  font-size: 4rem;
+  font-family: "SF Display Medium";
+  font-size: 1.2rem;
+  line-height: 150%;
+  letter-spacing: .1rem;
   text-align: center;
+  text-decoration: none;
 }
 
 h2{
-  font-family: "SF Display Regular";
-  font-size: 2rem;
+  font-family: "SF Display Medium";
+  font-size: 1.2rem;
+  line-height: 150%;
+  letter-spacing: .1rem;
   text-align: center;
+  text-decoration: none;
 }
 
 h3{
-  font-family: "SF Display Regular";
-  font-size: 1.75rem;
+  font-family: "SF Display Medium";
+  font-size: 1.2rem;
+  line-height: 150%;
+  letter-spacing: .1rem;
   text-align: center;
+  text-decoration: none;
 }
 
 p{
@@ -133,6 +147,7 @@ nav ul li {
   font-size: 2.5rem;
 }
 .game{
+
   border: 3px solid #BAEE7F;
   border-radius: 2rem;
   width: 130px;
@@ -151,9 +166,9 @@ nav ul li {
       align-items: center;
       justify-content: space-between;
       width: 100%;
-      height: 45rem;
+      height: 40rem;
       background-color: #1FB7AE;
-      font-size: 1rem;
+      font-size: 3rem;
       color: white;
 
   }
@@ -161,9 +176,15 @@ nav ul li {
     display:flex;
     align-items: center;
     flex-direction: column;
-    width:40rem;
+    width:50rem;
     height:10rem;
-    margin-right:4rem;
+    margin-right:6rem;
+    text-decoration: none;
+    list-style: none;
+  }
+  .main__section__one__content__info h3{
+   font-size: 2rem;
+   margin:0;
   }
 
   .main__section__one__content__info__img{
@@ -178,6 +199,7 @@ nav ul li {
 
   }
   .game2{
+    display:flex;
     border: 3px solid #BAEE7F;
     align-items: center;
     border-radius: 2rem;
@@ -185,9 +207,10 @@ nav ul li {
     height: 40px;
     text-align: center;
     padding: 10px;
+    justify-content: center;
+    margin-bottom: 2rem;
 
   }
-
 
 
   /*  Section 2   */
@@ -226,7 +249,6 @@ nav ul li {
   display:flex;
   justify-content: space-around;
   align-items: center;
-
   width:100%;
   padding-bottom: 5em;
   height:38rem;
@@ -276,6 +298,10 @@ label{
   background-color:#1FB7AE;
   color: white;
   font-size: 1rem;
+}
+.awward{
+  color: white;
+  font-size: 1.3rem;
 }
 /* Footer */
 
