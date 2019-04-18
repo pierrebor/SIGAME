@@ -141,6 +141,15 @@ nav ul li {
   padding-top: 10px;
 }
 
+.game:hover{
+  transition-duration: 0.2s;
+  border: 3px solid #ee9c7f;
+  border-radius: 2rem;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
 /* Section 1 */
   main{
     background-color: #FFF7E8;
@@ -185,9 +194,17 @@ nav ul li {
     height: 40px;
     text-align: center;
     padding: 10px;
-
   }
-
+  .game2:hover{
+    transition-duration: 0.2s;
+    border: 3px solid #ee9c7f;
+    align-items: center;
+    border-radius: 2rem;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+  }
 
 
   /*  Section 2   */
@@ -271,6 +288,18 @@ label{
   width: 6rem;
   height: 2rem;
   border: 3px solid #BAEE7F;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  background-color:#1FB7AE;
+  color: white;
+  font-size: 1rem;
+}
+
+#Submit:hover{
+  width: 6rem;
+  height: 2rem;
+  transition-duration: 0.2s;
+  border: 3px solid #ee9c7f;
   border-radius: 2rem;
   margin-top: 2rem;
   background-color:#1FB7AE;
