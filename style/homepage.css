@@ -5,28 +5,14 @@ html,body{
 html{
    scroll-behavior: smooth;
 }
-@font-face {
-  font-family: "SF Display Regula";
-  font-weight: 400;
-  src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
-}
-@font-face {
-  font-family: "SF Display Medium";
-  font-weight: 500;
-  src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
-}
-@font-face {
-  font-family: "SF Display Light";
-  font-weight: 200;
-  src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
-}
+
 .container{
   width: 75%;
   margin: 0 auto;
 
 }
 h1{
-  font-family: "SF Display Medium";
+  font-family: "Roboto";
   font-size: 1.2rem;
   line-height: 150%;
   letter-spacing: .1rem;
@@ -34,7 +20,7 @@ h1{
   text-decoration: none;
 }
 h2{
-  font-family: "SF Display Medium";
+  font-family: "Roboto";
   font-size: 1.2rem;
   line-height: 150%;
   letter-spacing: .1rem;
@@ -42,7 +28,7 @@ h2{
   text-decoration: none;
 }
 h3{
-  font-family: "SF Display Medium";
+  font-family: "Roboto";
   font-size: 1.2rem;
   line-height: 150%;
   letter-spacing: .1rem;
@@ -50,7 +36,7 @@ h3{
   text-decoration: none;
 }
 p{
-  font-family: "SF Display Medium";
+  font-family: "Roboto";
   font-size: 1.2rem;
   line-height: 150%;
   letter-spacing: .1rem;
@@ -58,7 +44,7 @@ p{
   text-decoration: none;
 }
 a{
-  font-family: "SF Display Medium";
+  font-family: "Roboto";
   margin: 0%;
   text-decoration: none;
   color:white ;
