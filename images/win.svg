@@ -11,7 +11,7 @@
 	.st5{font-size:38.1391px;}
 	.st6{font-size:37px;}
 	.st7{font-size:26px;}
-	.st8{letter-spacing:19;}
+	.st8{letter-spacing:18;}
 	.st9{opacity:0.1;fill:#E7AB25;enable-background:new    ;}
 	.st10{fill:url(#SVGID_1_);}
 	.st11{fill:#BE6F73;}
@@ -42,7 +42,7 @@
 <text transform="matrix(1 0 0 1 106.7748 615.1739)" class="st3 st4 st6">professeur x. il </text>
 <text transform="matrix(1 0 0 1 143.1748 659.5739)" class="st3 st4 st6">augmente la </text>
 <text transform="matrix(1 0 0 1 76.2748 703.9739)" class="st3 st4 st6">difficulté niveau </text>
-<text transform="matrix(1 0 0 1 150.1748 748.3739)" class="st3 st4 st6">par niveau !</text>
+<text transform="matrix(1 0 0 1 129.1748 748.3739)" class="st3 st4 st6">après niveau !</text>
 <text transform="matrix(1 0 0 1 121.0865 544.129)" class="st3 st4 st7"> </text>
 <text transform="matrix(1 0 0 1 235.6865 544.129)" class="st3 st4 st7"> </text>
 <text transform="matrix(1 0 0 1 365.2865 544.129)" class="st3 st4 st7"> </text>
@@ -63,7 +63,7 @@
 		c-32.5,0-58.8,26.7-58.8,59.7c0,11.6,3.3,23,9.7,32.8l0,0c0,29.7,28,53.7,62.5,53.7h250.3c27.1,0,49.1-18.9,49.1-42.2l0,0
 		C470.9,177.5,473.9,166.7,473.9,155.7z"/>
 	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="404.3071" y1="1311.8971" x2="404.3071" y2="1445.645" gradientTransform="matrix(1 0 0 -1 -42.0354 1492.4569)">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="404.3071" y1="-231.8971" x2="404.3071" y2="-365.6451" gradientTransform="matrix(1 0 0 1 -42.0354 412.4569)">
 		<stop  offset="0" style="stop-color:#808181;stop-opacity:0.25"/>
 		<stop  offset="0.54" style="stop-color:#808181;stop-opacity:0.12"/>
 		<stop  offset="1" style="stop-color:#808181;stop-opacity:0.1"/>
@@ -289,7 +289,7 @@
 	<rect x="258.8" y="210.1" class="st12" width="42.7" height="11"/>
 	<polygon class="st19" points="260.8,211.6 301.5,211.6 301.5,210.1 258.8,210.1 258.8,221.1 260.8,221.1 	"/>
 	
-		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="185.6703" y1="1342.7157" x2="259.5296" y2="1342.7157" gradientTransform="matrix(1 0 0 -1 -42.0354 1492.4569)">
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="185.6703" y1="-262.7156" x2="259.5296" y2="-262.7156" gradientTransform="matrix(1 0 0 1 -42.0354 412.4569)">
 		<stop  offset="0" style="stop-color:#808181;stop-opacity:0.25"/>
 		<stop  offset="0.54" style="stop-color:#808181;stop-opacity:0.12"/>
 		<stop  offset="1" style="stop-color:#808181;stop-opacity:0.1"/>
