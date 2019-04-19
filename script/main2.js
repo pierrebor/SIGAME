@@ -28,7 +28,7 @@ let textInGame = document.querySelector(".txtInGame")
 // instruction.style.width = instructionClasses.whidth
 // instruction.style = instructionClasses.height
 
-instruction = document.createElement("div")// instruction written on center of the game 
+instruction = document.createElement("div")// instruction written on center of the game
 instruction.style.textAlign ="center"
 instruction.style.font = "bold 40px Helvetica,serif"
 document.querySelector(".txtInGame").appendChild(instruction)
@@ -38,10 +38,10 @@ instructionList.style.whidth = "300px"
 instructionList.style.height = "450px"
 instructionList.style.textAlign ="center"
 instructionList.style.font = "bold 20px Helvetica,serif"
-document.querySelector(".listInstruction").appendChild(instructionList) 
+document.querySelector(".listInstruction").appendChild(instructionList)
 
 
-    //timer 
+    //timer
 let repetition = 0 //initialize the loop
 function decompte(){
   let intervalId =setInterval(function(){
@@ -49,7 +49,7 @@ function decompte(){
     document.querySelector(".txtInGameTime").innerHTML = +currentIndex // display time on left block
     currentIndex-- // time decrease to 0
 
-    if (currentIndex <= 0){ 
+    if (currentIndex <= 0){
         clearInterval(intervalId)
         let random = Math.floor(Math.random()*questionLvl1[lvl].length) // random question
         while(questionLvl1[lvl][random] == lastRequest){
@@ -57,12 +57,12 @@ function decompte(){
         }
         instruction.innerHTML = questionLvl1[lvl][random]
         lastRequest = questionLvl1[lvl][random] // allows us never to hold the same instructions twice
-        if(keyPressed){ // check if the player answer to instruction if not he lost point 
-            repetition++ 
+        if(keyPressed){ // check if the player answer to instruction if not he lost point
+            repetition++
             subLvl++ // sublvl increase
             keyPressed = false;
         }
-        else{ //"if not he lost point" 
+        else{ //"if not he lost point"
             lvl = 1
             subLvl = 0
             score--
@@ -78,9 +78,9 @@ function decompte(){
 
         else if(lvl > 1){
             let pickedColor = Math.floor(Math.random()*colorTab.length) // random color between 4 color
-            instruction.style.color = colorTab[pickedColor] // instruction get random color 
+            instruction.style.color = colorTab[pickedColor] // instruction get random color
 
-            right.style.backgroundColor = colorTab[pickedColor] // pic one of the random color 
+            right.style.backgroundColor = colorTab[pickedColor] // pic one of the random color
             colorTab.splice(pickedColor, 1) // remove last pick choosen by div
 
             pickedColor = Math.floor(Math.random()*colorTab.length)
@@ -88,25 +88,25 @@ function decompte(){
             colorTab.splice(pickedColor, 1)
 
             pickedColor = Math.floor(Math.random()*colorTab.length)
-            up.style.backgroundColor = colorTab[pickedColor] 
+            up.style.backgroundColor = colorTab[pickedColor]
             colorTab.splice(pickedColor, 1)
-        
+
             pickedColor = Math.floor(Math.random()*colorTab.length)
             down.style.backgroundColor = colorTab[pickedColor]
             colorTab.splice(pickedColor, 1)
-            
+
             colorTab = ["#00b1c5", "#ff2176", "#e23db0", "#ffb200"] // update the list of color
         }
-            
+
         instruction.innerHTML = questionLvl1[lvl][random] // display random instruction
-        // instructionList.innerHTML = questionLvl1[lvl] 
-        instructionList.innerHTML = "Exécuter la dernière instruction une fois  et re-cliquez sur Jouer a une reprise sinon .. gare a vous s"
-        
+        // instructionList.innerHTML = questionLvl1[lvl]
+        instructionList.innerHTML = "Exécutez la dernière instruction une fois  et re-cliquez sur Jouer une seule fois, sinon .. gare à vous "
+
         window.onkeyup = function(e){ // function to use key
             let key = e.keyCode ? e.keyCode : e.which;
             switch(key){
-                
-                case 32: // spacebar 
+
+                case 32: // spacebar
                 if(instruction.innerHTML == "ESPACE !" || instruction.innerHTML == "pas haut" || instruction.innerHTML == "pas droite" || instruction.innerHTML == "pas bas"  || instruction.innerHTML == "pas gauche"){
                     score++
                     keyPressed = true;
@@ -115,12 +115,12 @@ function decompte(){
                     score--
                     lvl = 1
                     subLvl = 0
-                    repetition = 0   
+                    repetition = 0
                 }
                     currentIndex = 0
                 break;
 
-                case 37: // left arrow 
+                case 37: // left arrow
                 if (instruction.innerHTML == "Gauche" || instruction.innerHTML == "pas haut" || instruction.innerHTML == "pas droite" || instruction.innerHTML == "pas bas"  || instruction.innerHTML == "pas pas gauche" || instruction.innerHTML == "pas espace" || instruction.innerHTML == "inverse de droite"){
                     score++
                     keyPressed = true;
@@ -129,11 +129,11 @@ function decompte(){
                     score--
                     lvl = 1
                     subLvl = 0
-                    repetition = 0   
+                    repetition = 0
                 }
                     currentIndex = 0
                 break;
-        
+
                 case 40: // down arrow
                 if (instruction.innerHTML == "Bas" || instruction.innerHTML == "pas gauche"  || instruction.innerHTML == "pas droite" ||instruction.innerHTML == "pas haut" || instruction.innerHTML == "pas pas bas" || instruction.innerHTML == "pas espace" || instruction.innerHTML == "inverse de haut") {
                     score++
@@ -147,7 +147,7 @@ function decompte(){
                 }
                     currentIndex = 0
                 break;
-                
+
                 case 39: // right arrow
                 if (instruction.innerHTML == "Droite" || instruction.innerHTML == "pas gauche" ||instruction.innerHTML == "pas haut" || instruction.innerHTML == "pas bas"  || instruction.innerHTML == "pas pas droite" || instruction.innerHTML == "pas espace" || instruction.innerHTML == "inverse de gauche")  {
                     score++
@@ -161,7 +161,7 @@ function decompte(){
                 }
                     currentIndex = 0
                 break;
-        
+
                 case 38: // up arrow
                 if(instruction.innerHTML == "Haut" || instruction.innerHTML == 'pas gauche' || instruction.innerHTML == "pas droite"  || instruction.innerHTML == "pas bas"  ||instruction.innerHTML == "pas pas haut" || instruction.innerHTML == "pas espace" || instruction.innerHTML == "inverse de bas"){
                     score++
@@ -177,7 +177,7 @@ function decompte(){
                 break;
             }
         }
-        
+
         displayScore.innerHTML = score
         currentIndex = 20
         document.querySelector(".lvl").innerHTML= "Niveau"+lvl+"." +subLvl
@@ -188,7 +188,7 @@ function decompte(){
                 console.log(questionColor)
         }
         if (repetition < 10*lvl){ //sublvl increase with the lvl for exemple lvl 1 has 10 subLvl and lvl 2 has 20 subLvl
-            // console.log(c) 
+            // console.log(c)
             decompte()
             instructionList.innerHTML = questionLvl1[lvl] // Instruction for each lvl
         }
@@ -208,10 +208,10 @@ function decompte(){
   }, timerSpeed)
 }
 
-document.querySelector("#launch").onclick = function() { // begin a game or lvl 
+document.querySelector("#launch").onclick = function() { // begin a game or lvl
   	currentIndex = 5
     repetition = 0
-      
+
 decompte()
 }
 let lvlInCase = document.createElement("div")
@@ -228,7 +228,7 @@ document.querySelector(".lvlInCase").appendChild(lvlInCase)
 //     this.display = display
 //     this.posX = posX
 //     this.posY = posY
-//     }   
+//     }
 // }
 
 // rightButton = new Button (100,100,"blue","absolute",185,199)
