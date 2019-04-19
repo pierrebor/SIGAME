@@ -12,7 +12,7 @@ html{
 
 }
 h1{
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   line-height: 150%;
   letter-spacing: .1rem;
@@ -20,7 +20,7 @@ h1{
   text-decoration: none;
 }
 h2{
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   line-height: 150%;
   letter-spacing: .1rem;
@@ -28,7 +28,7 @@ h2{
   text-decoration: none;
 }
 h3{
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   line-height: 150%;
   letter-spacing: .1rem;
@@ -36,7 +36,7 @@ h3{
   text-decoration: none;
 }
 p{
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   line-height: 150%;
   letter-spacing: .1rem;
@@ -44,7 +44,7 @@ p{
   text-decoration: none;
 }
 a{
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   margin: 0%;
   text-decoration: none;
   color:white ;
